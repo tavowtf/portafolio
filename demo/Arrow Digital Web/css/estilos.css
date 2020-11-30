@@ -1,0 +1,284 @@
+@font-face {
+    font-family: ProximaNovaThin;
+    src: url(../font/Proxima\ Nova\ Thin.otf);
+}
+@font-face {
+    font-family: ProximaNovaRegular;
+    src: url(../font/ProximaNova-Regular.otf);
+}
+@font-face {
+    font-family: ProximaNovaBold;
+    src: url(../font/Proxima\ Nova\ Bold.otf);
+}
+html{
+    padding-right: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: ProximaNovaRegular;
+    background: #f8f8f8;
+}
+body h1{
+    font-size: 56px;
+    font-family: ProximaNovaBold;
+}
+.main-header{
+    height: 100vh;
+    background: #222A30;
+    color: #fff;
+    border-radius: 0 0 700px 0;
+}
+.navbar-nav > a {
+    margin-left: 50px;
+}
+.contenedor-main{
+    padding: 150px 15px;
+}
+.bienvenidos{
+    padding: 3rem 0;
+}
+.bienvenidos h2{
+    font-family: ProximaNovaBold;
+    font-size: 36px;
+    color: #30363A;
+}
+
+/*Servicios*/
+
+.servicios{
+    height: 100%;
+    background: #222a30;
+    margin-top: 3rem;
+    border-radius: 0 400px 0 0;
+    color: #fff;
+    padding-bottom: 3rem;
+}
+.servicios h2{
+    font-family: ProximaNovaBold;
+    font-size: 36px;
+    color: #fff;
+}
+.separador{
+    margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 225, 255, 0.1);
+}
+.descripciones{
+    font-family: ProximaNovaRegular;
+    font-size: 14px;
+    color: #30363A;
+}
+.bg-dark-carta{
+    background-color: #fff;
+    border-radius: 3rem;
+    
+
+}
+.card-title{
+    color: #30363A;
+    font-family: ProximaNovaBold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.servicios-contenedor{
+    padding: 1rem 15px;
+}
+.servicios-contenedor div a{
+    display: inline-block;
+    background: #00D6E6;
+    border-radius: 3rem;
+    
+}
+.servicios-contenedor div:hover img{
+    opacity: .9;
+    transition: all .5s ease;
+
+}
+
+/*Bannerportfolio*/
+
+.banner-portfolio{
+    background: #fff;       
+}
+.banner-clientes {
+    color: #30363A;
+    font-size: 36px;
+    font-family: ProximaNovaBold;
+}
+
+/*CalltoAction*/
+
+.call{
+    background: #222A30;
+    height: 100%;
+    width: auto;
+    padding-bottom: 2rem;
+}
+.call div h2{
+    color: #fff;
+    font-family: ProximaNovaBold;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 2rem;
+}
+i{
+    margin-right: 10px;
+}
+
+/*Contacto*/
+
+.contacto{
+    height: 100%;
+    width: auto;
+    padding: 4rem 0;
+    background: #f4f4f4;
+    border-radius: 4000px 0 4000px 0;
+}
+
+section.contacto h2{
+    color: #30363A;
+    font-family: ProximaNovaBold;
+    font-size: 36px;
+    text-align: center;
+    }
+.formulario{
+    padding: 2rem;    
+}
+.form-group > div{
+    margin: 15px 0;
+    
+}
+
+/*Footer*/
+
+.pie{
+    background: #222A30;
+    
+}
+
+.logo-ultimo{
+    padding: 2rem 0;
+}
+
+.redes-sociales a{
+    
+    margin: 0 1rem;
+       
+}
+.linkedin{
+        
+        display: inline-block;
+        width: 3em;
+        height: 3em;
+        vertical-align: middle;
+        content: "";
+        background: no-repeat center center;
+        background-size: 100% 100%;
+        background: url("../images/linkedin.svg");
+
+}
+.linkedin:hover{
+    
+    background: url("../images/linkedinhover.svg");
+    transition: all .2s ease;
+}
+.facebook{
+        
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    background: url("../images/facebook_new.svg");
+    transition: all .2s ease;
+}
+.facebook:hover{
+    
+    background: url("../images/facebook_newhover.svg");
+    transition: all .2s ease;
+}
+.instagram{
+    
+        display: inline-block;
+        width: 3em;
+        height: 3em;
+        vertical-align: middle;
+        content: "";
+        background: no-repeat center center;
+        background-size: 100% 100%;
+        background: url("../images/instagram_new.svg");
+        transition: all .2s ease;
+}
+.instagram:hover{
+    
+    background: url("../images/instagram_newhover.svg");
+    transition: all .2s ease;
+}
+.derechos h5{
+    padding-top: 2rem;
+    color: #fff;
+    font-size: 14px;
+    font-family: ProximaNovaRegular;
+}
+.derechos p{
+    color: #fff;
+    font-size: 10px;
+    font-family: ProximaNovaThin;
+    padding-top: 1rem;
+}
+/* Planes */
+
+.plan-regular{
+    background: linear-gradient(45deg, #00D6E6, #004EA3);
+    border-radius: 5px;
+    padding: 1rem;
+    color: #fff
+}
+.plan-economico{
+    padding: 1rem;
+    color: #30363A;
+}
+.plan-premium{
+    padding: 1rem;
+    color: #30363A;
+}
+small {
+    font-size: .9rem;    
+}
+.precio{
+    font-family: ProximaNovaBold;
+    color: #30363A;
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+}
+.precio-regular{
+    font-family: ProximaNovaBold;
+    color: #fff;
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+}
+.btn-blanco {
+    color: #30363A;
+    background: linear-gradient(45deg, rgb(245, 245, 245), rgb(235, 235, 235));
+    border: none;
+    border-radius: 50px;
+    transition: all .3s ease;
+    padding: 10px;   
+  }
+  .btn-blanco:hover {
+    color: #30363A;
+    background: linear-gradient(45deg, rgb(255, 255, 255), rgb(248, 248, 248));
+    padding: 13px; 
+    transition: all .3s ease;
+  }
+  
+  /*Portfolio*/
+
+
+
+
+
