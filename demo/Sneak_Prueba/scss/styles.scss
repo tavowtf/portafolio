@@ -1,0 +1,44 @@
+$primaryColor: #ff5672;
+$secundaryColor: #707070;
+$terciaryColor: #c3d0d8;
+$backgroundColor: #fff;
+$fontPrimary: 'Montserrat', sans-serif;
+$fontSecundary: 'Questrial', sans-serif;
+
+
+@import "nav-bar.scss";
+@import "header.scss";
+@import "portfolio.scss";
+@import "footer.scss";
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;}
+
+.body{
+    width: 90%;
+    margin: auto;}
+
+.section{
+    width: 90%;
+    margin: 72px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+    
+
+
+
+
+
+
+
+
+
